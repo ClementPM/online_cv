@@ -25,6 +25,10 @@ a {
   color: rgba(110, 120, 120, 0.6);
 }
 
-a:hover {
-  color: #4e8d7c;
+.fa-github-square:hover {
+  color: black;
+}
+
+.fa-linkedin:hover {
+  color: #105fa2;
 }
