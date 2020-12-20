@@ -1,21 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
-body {
-  margin: 0;
-}
-
-.play {
-  width: 100%;
+.video-container video {
   position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
 }
 
-.txt {
+.text-container {
   font-family: "Audiowide", sans-serif;
   position: relative;
   font-size: 40px;
-  padding: 40px 400px 0 800px;
+  padding: 0 60px;
   color: rgba(110, 120, 120, 0.6);
-  text-align: center;
+  margin-top: 60px;
 }
 h2 {
   margin-bottom: 30px;
@@ -31,4 +29,15 @@ a {
 
 .fa-linkedin:hover {
   color: #105fa2;
+}
+
+@media only screen and (min-width: 600px) {
+  .video-container video {
+    width: 100vw;
+    height: auto;
+  }
+  .text-container {
+    text-align: center;
+    padding-left: 30%;
+  }
 }
