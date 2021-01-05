@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
+
+/* GENERAL */
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.container-fluid {
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+section .header {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* ABOUT */
+
+#about {
+  padding-top: 100px;
+  background: lightgray;
+}
+
+.profile-picture {
+  text-align: center;
+  width: 250px;
+  margin: 0 auto;
+  float: none;
+}
+
+#about .header h1 {
+  color: blue;
+  text-transform: uppercase;
+}
+
+#about .header h3 {
+  color: red;
+}
+
+.button1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: aqua;
+  border: 1px solid white;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 18px 50px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover {
+  background: yellow;
+  text-decoration: none;
+}
