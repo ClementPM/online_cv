@@ -47,6 +47,11 @@ section .header {
   margin: 15px auto;
 }
 
+ol,
+ul {
+  list-style: none;
+}
+
 /* ABOUT */
 
 #about {
@@ -157,7 +162,7 @@ h5 {
   clear: both;
 }
 .timeline > li:before,
-timeline > li:after {
+.timeline > li:after {
   content: " ";
   display: table;
 }
@@ -174,4 +179,58 @@ timeline > li:after {
   margin-left: -25px;
   background-color: #ddd;
   border-radius: 50%;
+}
+
+.timeline-panel-container {
+  width: 50%;
+  float: left;
+}
+
+.timeline-panel-container-inverted {
+  width: 50%;
+  float: right;
+}
+
+.timeline-panel {
+  width: 90%;
+  float: right;
+  margin-right: 40px;
+  border: 1px solid #d4d4d4;
+  border-radius: 7px;
+  padding: 20px 25px;
+  position: relative;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  background: #fff;
+}
+
+.timeline-panel-container-inverted .timeline-panel {
+  float: left;
+  margin-left: 40px;
+}
+
+.timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0px solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+
+.timeline-panel-container-inverted .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+.timeline-heading h3 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+.timeline-heading h4 {
+  color: violet;
 }
