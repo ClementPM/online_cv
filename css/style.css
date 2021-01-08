@@ -234,3 +234,79 @@ h5 {
 .timeline-heading h4 {
   color: violet;
 }
+
+/* EDUCATION */
+
+.education-block {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  background: #ddd;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.education-block h5 {
+  color: #888;
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-shadow: none;
+}
+
+.fa-graduation-cap {
+  font-size: 40px;
+}
+
+.education-block h3 {
+  color: blue;
+}
+
+.education-block h4 {
+  margin-bottom: 20px;
+}
+.education-block p {
+  font-weight: bold;
+}
+
+.education-block .red_divider {
+  margin-bottom: 20px;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+  background-color: lightgreen;
+}
+
+#portfolio .header h2 {
+  color: #fff;
+  color: ;
+}
+
+#portfolio .img-thumbnail {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(80%);
+}
+
+#portfolio .img-thumbnail:hover {
+  width: 100%;
+  height: 100%;
+  filter: none;
+}
+
+/* RECOMMENDATIONS */
+
+#recommendations .header h2 {
+  color: blue;
+}
+
+.carousel-control-prev-icon {
+  color: red;
+}
+
+.carousel-indicators li {
+  border-color: blue;
+}
