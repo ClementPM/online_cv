@@ -304,9 +304,40 @@ h5 {
 }
 
 .carousel-control-prev-icon {
-  color: red;
+  color: red !important;
 }
 
-.carousel-indicators li {
-  border-color: blue;
+ol.carousel-indicators {
+  bottom: -50px !important;
+
+  bottom: 5px;
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  border: 0;
+  opacity: 0.6;
+  background: red;
+  border: 1px solid red;
+}
+
+.carousel-dark .carousel-indicators li {
+  background-color: transparent;
+  border: 1px solid red;
+}
+
+/* #myCarousel .carousel-item {
+  padding: 40px 30px;
+} */
+
+#myCarousel .carousel-item h3 {
+  color: red;
+  font-style: italic;
 }
