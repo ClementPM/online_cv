@@ -67,6 +67,7 @@ ul {
     #e4e5e6,
     #00416a
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
 }
 
 .profile-picture {
@@ -308,7 +309,7 @@ h5 {
 }
 
 ol.carousel-indicators {
-  bottom: -50px !important;
+  bottom: -35px !important;
 
   bottom: 5px;
   margin: 0;
@@ -333,11 +334,38 @@ ol.carousel-indicators li.active {
   border: 1px solid red;
 }
 
-/* #myCarousel .carousel-item {
-  padding: 40px 30px;
-} */
-
-#myCarousel .carousel-item h3 {
+.carousel-item h3 {
   color: red;
   font-style: italic;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: lightgray;
+  padding: 20px 0 40px;
+}
+
+.fa-chevron-up {
+  font-size: 25px;
+  margin: 20px;
+  color: blue;
+  height: 30px;
+}
+
+.fa-chevron-up:hover {
+  font-size: 27px;
+}
+
+footer h5 {
+  color: white;
+  font-weight: bold;
+}
+
+/* NAVBAR */
+
+/* ul {
+  margin: 0 auto;
+  letter-spacing: 4px;
+  text-align: center;
+} */

@@ -15,6 +15,41 @@
   
   <body>
     
+  
+    <!-- <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About</a>
+            <li><a href="#skills">Skills</a></li> 
+            <li><a href="#experience">Experience</a></li> 
+            <li><a href="#education">Education</a></li> 
+            <li><a href="#portfolio">Portfolio</a></li> 
+            <li><a href="#recommandations">Recommandations</a></li> 
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container"><a class="navbar-brand"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center justify-content-center" id="myNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item p-2"><a class="nav-link active" aria-current="page" href="#about">About</a></li>
+            <li class="nav-item p-2"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item p-2"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item p-2"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item p-2"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item p-2"><a class="nav-link" href="#recommandation">Recommandation</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <!-- SECTION ABOUT -->
 
     <section id="about" class="container-fluid">
@@ -141,33 +176,37 @@
 
     <!-- SECTION EDUCATION -->
     <section id="education">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <a href="https://www.lewagon.com/" target="_blank" class="text-decoration-none"> 
-            <div class="education-block">
-              <h5>2020</h5>
-                <span><i class="fas fa-graduation-cap"></i></span>
-                <h3>Le Wagon Bootcamp</h3>
-                <div class="red_divider"></div>
-                <p>Artificial inteligence</p>
-                <p>Information system</p>
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <a href="https://www.univ-smb.fr/en/" target="_blank" class="text-decoration-none"> 
-            <div class="education-block">
-              <h5>2004 - 2008</h5>
-                <span><i class="fas fa-graduation-cap"></i></span>
-                <h3> University Savoie Mont Blanc</h3>
-                <div class="red_divider"></div>
-                <p>Master 1</p>
-                <p>Business Analytics</p>
-              </a>
-            </div>
-          </div>
+      <div class="container">        
+        <div class="red_divider"></div>
+        <div class="header">
+          <h2>Education</h2>
         </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <a href="https://www.lewagon.com/" target="_blank" class="text-decoration-none"> 
+              <div class="education-block">
+                <h5>2020</h5>
+                  <span><i class="fas fa-graduation-cap"></i></span>
+                  <h3>Le Wagon Bootcamp</h3>
+                  <div class="red_divider"></div>
+                  <p>Artificial inteligence</p>
+                  <p>Information system</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <a href="https://www.univ-smb.fr/en/" target="_blank" class="text-decoration-none"> 
+              <div class="education-block">
+                <h5>2004 - 2008</h5>
+                  <span><i class="fas fa-graduation-cap"></i></span>
+                  <h3> University Savoie Mont Blanc</h3>
+                  <div class="red_divider"></div>
+                  <p>Master 1</p>
+                  <p>Business Analytics</p>
+                </a>
+              </div>
+            </div>
+          </div>
       </div>
     </section>
 
@@ -208,11 +247,11 @@
               <img src="images/facebook_share.png" alt="facebook" class="img-thumbnail">
             </a>
           </div>
-          <div class="col-sm-4 mb-3">
+          <!-- <div class="col-sm-4 mb-3">
             <a href="www.facebook.com" target="_blank">
               <img src="images/facebook_share.png" alt="facebook" class="img-thumbnail">
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -256,8 +295,15 @@
       </div> 
     </section>
 
+    <!-- FOOTER -->
 
-    
+    <footer class="text-center">
+    <a href="#about">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+    <h5>Made with 💚</h5>
+    </footer>
+
 
         
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
